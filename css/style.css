@@ -1,0 +1,28 @@
+.section-hero {
+  background-image: url(../images/bg-intro-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: 180% 130%;
+  background-size: auto 120%;
+  /* background-position: center right -50%; */
+
+  height: 100vh;
+  padding: 4.8rem 0 9.6rem 0;
+}
+
+.hero-text-box {
+  max-width: 80%;
+
+  align-self: center;
+}
+
+.hero-discription {
+  letter-spacing: 0.15px;
+  line-height: 1.6;
+  margin-bottom: 4.8rem;
+}
+
+.hero-img {
+  max-width: 100%;
+
+  transform: scale(1.5) translateX(25%);
+}

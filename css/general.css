@@ -1,0 +1,72 @@
+/* ## Colors
+
+### Primary
+
+- Dark Blue: hsl(233, 26%, 24%)
+- Lime Green: hsl(136, 65%, 51%)
+- Bright Cyan: hsl(192, 70%, 51%)
+
+### Neutral
+
+- Grayish Blue: hsl(233, 8%, 62%)
+- Light Grayish Blue: hsl(220, 16%, 96%)
+- Very Light Gray: hsl(0, 0%, 98%)
+- White: hsl(0, 0%, 100%) */
+
+html {
+  font-size: 62.5%;
+
+  overflow-x: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #9698a6;
+  font-size: 1.8rem;
+  font-family: "Public Sans", sans-serif;
+  font-weight: 400;
+  line-height: 1;
+
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1440px;
+  padding: 3.2rem;
+  margin-inline: auto;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid--2--cols {
+  grid-template-columns: 1fr 1fr;
+}
+
+/* HEADDING */
+
+.headding-primary {
+  color: #2d314d;
+  font-size: 6.2rem;
+  font-weight: 300;
+  line-height: 1.1;
+  margin-bottom: 3.2rem;
+}
+
+/* BUTTON */
+
+.btn {
+  border: none;
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 700;
+  background-image: linear-gradient(to right, #31d35c, hsl(192, 70%, 51%));
+  padding: 1.2rem 2.4rem;
+  border-radius: 999px;
+}
