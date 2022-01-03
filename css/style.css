@@ -1,12 +1,14 @@
+/* SECTION HERO */
+
 .section-hero {
   background-image: url(../images/bg-intro-desktop.svg);
   background-repeat: no-repeat;
-  background-position: 180% 130%;
-  background-size: auto 120%;
+  background-position: 265% 70%;
+  background-size: 85% auto;
   /* background-position: center right -50%; */
 
-  height: 100vh;
-  padding: 4.8rem 0 9.6rem 0;
+  /* height: 100vh; */
+  /* padding: 4.8rem 0; */
 }
 
 .hero-text-box {
@@ -24,5 +26,29 @@
 .hero-img {
   max-width: 100%;
 
-  transform: scale(1.5) translateX(25%);
+  transform: scale(1.5) translate(20%, 2.5%);
+}
+
+/* SECTION FEATURE */
+
+.section-features {
+  background-color: hsl(220, 16%, 96%);
+  padding: 9.6rem 0;
+}
+
+.features-discription {
+  max-width: 50%;
+  line-height: 1.4;
+  margin-bottom: 6.4rem;
+}
+
+.feature-title {
+  color: #2d314d;
+  font-size: 2rem;
+  font-weight: 400;
+  margin: 3.2rem 0 2.4rem 0;
+}
+
+.feature-discription {
+  line-height: 1.6;
 }
